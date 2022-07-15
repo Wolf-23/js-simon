@@ -3,3 +3,32 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+#numbersContainer {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#numbers {
+    background-color: lightblue;
+    font-size: 50px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#myText {
+    padding-bottom: 25px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
