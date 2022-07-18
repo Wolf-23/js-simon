@@ -12,15 +12,15 @@ for (x = 1; x <= 5; x++) {
 console.log(uniqueNumbers);
 
 numbers.append(uniqueNumbers);
-setTimeout(numbersNone, 2000);
+setTimeout(numbersNone, 5000);
 
 setTimeout(function() {
     saveUserNumbers(uniqueNumbers, writeNumbers);
-}, 3000);
+}, 5500);
 
 setTimeout(function() {
     changeClass(numbers, writeNumbers, myText);
-}, 4000);
+}, 6000);
 
 function generateRandomNum(numeriUsati, min, max) {
     let validNum = false;
